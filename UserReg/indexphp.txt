@@ -1,0 +1,72 @@
+<?php
+
+session_start();
+
+
+?>
+
+
+
+
+<html>
+	<head>
+		<title>Hotel Website | Home</title>
+</head>
+<style>
+p{
+ text-align:right;
+ font-size:15px;
+}
+
+.topnav {
+  background-color:#42144d;
+  overflow:hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f5ff3d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:18px;
+}
+
+
+.topnav a:hover {
+  background-color:#f2465a;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #45ede8;
+  color: red;
+}
+
+</style>
+	<body>
+			
+			
+				<img src="hotel name.jpg" width="300" height="125" align="left">
+				<p ><img src="micon.png" width="30" height="30" ><font color="#1d28bf"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Call us :<b></font><font color="#bf1d4e" ><b> 9866622288</font><b></p>
+				<p ><img src="licon.png" width="30" height="30" ><font color="#1d28bf"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location:<b></font><font color="#bf1d4e"><b> Sarur street,Amaravathi,Andhra Pradesh,</b></font></p>
+				<p ><font color="#bf1d4e"><b></b></font></p>
+				<p ><font color="#bf1d4e"><b></b></font></p>
+				<p ><font color="#bf1d4e"><b>Pin code: 522502.</b></font></p>
+				
+				
+				
+<div class="topnav">
+  <a class="active" href="home.html" target="t1">Home</a>
+  <a href="1.html" target="t1">About</a>
+  <a href="">Services</a>
+  <a href="">Gallery</a>
+  <a href="">Registration</a>
+</div>
+				
+		<a href="logout.php">Logout</a>		
+			
+	</body>
+</html>
